@@ -1,0 +1,77 @@
+
+/* General body and layout styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar-content {
+    padding: 20px;
+}
+
+.close-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #ff1a1a;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.sidebar li ul {
+    display: none;
+    padding-left: 20px;
+}
+
+.sidebar li:hover > ul {
+    display: block;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+}
+
+#open-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#open-btn:hover {
+    background-color: #555;
+}
