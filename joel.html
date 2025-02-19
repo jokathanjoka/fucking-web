@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="joel.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <button id="close-btn" class="close-btn">X</button>
+            <h2>Sidebar</h2>
+            <ul>
+                <li>
+                    Parent Item 1
+                    <ul>
+                        <li>Child Item 1</li>
+                        <li>Child Item 2</li>
+                    </ul>
+                </li>
+                <li>
+                    Parent Item 2
+                    <ul>
+                        <li>Child Item 1</li>
+                        <li>Child Item 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div id="main-content" class="main-content">
+      <button id="open-btn">Open Sidebar</button>
+        <h1>Welcome to the Page!</h1>
+        <p>Click the button to open the sidebar.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
